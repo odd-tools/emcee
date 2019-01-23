@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "target": "es5",
+    "module": "es6",
+    "lib": [
+    	"es2017",
+        "es6",
+        "es2015",
+	    "dom"
+    ],
+    "allowSyntheticDefaultImports" : true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "outDir": "build"
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
